@@ -1,0 +1,23 @@
+[
+  {
+    "id": "P001",
+    "language": "BM",
+    "emotion": "neutral",
+    "speaking_style": "short",
+    "interrupt_probability": 0.0
+  },
+  {
+    "id": "P002",
+    "language": "EN",
+    "emotion": "confused",
+    "speaking_style": "natural",
+    "interrupt_probability": 0.1
+  },
+  {
+    "id": "P003",
+    "language": "MIXED",
+    "emotion": "angry",
+    "speaking_style": "direct",
+    "interrupt_probability": 0.2
+  }
+]

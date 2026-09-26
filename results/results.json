@@ -1,0 +1,722 @@
+[
+  {
+    "run_id": "9c07efeb-eaab-448a-8327-aae40124dc9d",
+    "scenario_id": "SC003",
+    "persona_id": "P002",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "I need my account information. Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, 0123456789 I’m not sure."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, Aiman Rahman Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "WRONG Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, Blue Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification was unsuccessful. I cannot disclose protected account information. Please contact support for further assistance."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay. I’m not sure."
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "6a9541ed-3d60-4005-b8cb-386c32951747",
+    "scenario_id": "SC002",
+    "persona_id": "P003",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Alright, I want to check my outstanding balance. I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, 0123456789 This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Aiman Rahman I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, 8877 I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Blue This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification is complete. I can now assist with your outstanding balance enquiry."
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Okay. I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "88f8499f-7fc3-4ef0-9f9d-df0db1719c67",
+    "scenario_id": "SC002",
+    "persona_id": "P002",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Alright, I want to check my outstanding balance. Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, 0123456789 Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Aiman Rahman Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "8877 Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, Blue Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification is complete. I can now assist with your outstanding balance enquiry."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Okay. Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "88fd58e2-ea52-43f5-b4c6-999670356ba2",
+    "scenario_id": "SC003",
+    "persona_id": "P001",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Baik, I need my account information."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789"
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Aiman Rahman"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, WRONG"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Blue"
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification was unsuccessful. I cannot disclose protected account information. Please contact support for further assistance."
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Okay."
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "c7217fec-e708-44d4-9d0a-c166b79f74a4",
+    "scenario_id": "SC001",
+    "persona_id": "P003",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Alright, Saya dah buat payment tapi payment belum masuk lagi. Please settle this."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, 0123456789 Please settle this."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Aiman Rahman I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, 8877 This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Blue This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Your payment may still be processing. I have identified the issue as payment not yet reflected. Please allow the normal processing period. If it remains unresolved, I can transfer you to an officer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, Yes, please transfer me. This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "fd43f4e6-fa22-4eb3-89b4-e48260b91514",
+    "scenario_id": "SC001",
+    "persona_id": "P001",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Okay, Saya dah buat payment tapi payment belum masuk lagi."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789"
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Aiman Rahman"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Baik, 8877"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Blue"
+      },
+      {
+        "speaker": "agent",
+        "text": "Your payment may still be processing. I have identified the issue as payment not yet reflected. Please allow the normal processing period. If it remains unresolved, I can transfer you to an officer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Yes, please transfer me."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "bcc18f84-41c4-40e5-8e7f-10bb1054d55f",
+    "scenario_id": "SC001",
+    "persona_id": "P002",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Saya dah buat payment tapi payment belum masuk lagi. Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789 Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, Aiman Rahman Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, 8877 Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Blue Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Your payment may still be processing. I have identified the issue as payment not yet reflected. Please allow the normal processing period. If it remains unresolved, I can transfer you to an officer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, Yes, please transfer me. Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "19b9d5cb-19e9-4305-8310-241367e08b54",
+    "scenario_id": "SC004",
+    "persona_id": "P001",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Ya, Saya nak buat pembatalan ID."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789"
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Aiman Rahman"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "8877"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Blue"
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification is complete. I have identified your cancellation request and will explain the required cancellation process."
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Okay."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "79bf8e4b-a7ba-4667-a9e2-c89c89efeff2",
+    "scenario_id": "SC002",
+    "persona_id": "P001",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Okay, I want to check my outstanding balance."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Baik, 0123456789"
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Aiman Rahman"
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, 8877"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Blue"
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification is complete. I can now assist with your outstanding balance enquiry."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Okay."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "4ece8afa-a91c-4e8a-a457-357b23be0482",
+    "scenario_id": "SC003",
+    "persona_id": "P003",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Alright, I need my account information. I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789 This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Aiman Rahman Please settle this."
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, WRONG This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Blue This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification was unsuccessful. I cannot disclose protected account information. Please contact support for further assistance."
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Okay. This is frustrating."
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "2d21050c-2e65-4f2c-b903-b537c8fde670",
+    "scenario_id": "SC004",
+    "persona_id": "P003",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Ya, Saya nak buat pembatalan ID. I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789 I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, Aiman Rahman This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, 8877 I need this resolved."
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, Blue This is frustrating."
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification is complete. I have identified your cancellation request and will explain the required cancellation process."
+      },
+      {
+        "speaker": "customer",
+        "text": "Ya, Okay. Please settle this."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  },
+  {
+    "run_id": "0080a274-2df4-4b0e-aad8-3ed3011921f2",
+    "scenario_id": "SC004",
+    "persona_id": "P002",
+    "transcript": [
+      {
+        "speaker": "customer",
+        "text": "Sure, Saya nak buat pembatalan ID. Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand. Before I proceed, may I have your contact number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "0123456789 I’m not sure."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. May I have your full name?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, Aiman Rahman I’m not sure."
+      },
+      {
+        "speaker": "agent",
+        "text": "Please provide the last four digits of your ID."
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, 8877 Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "One security question: please provide your security answer."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, Blue Can you explain?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Verification is complete. I have identified your cancellation request and will explain the required cancellation process."
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, Okay. Is that correct?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can help with?"
+      }
+    ],
+    "kyc_result": "PASS",
+    "root_cause_result": "YES",
+    "resolution_result": "YES",
+    "escalation_result": "PASS",
+    "overall_result": "PASS",
+    "failures": []
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "SC001",
+    "name": "Payment not reflected",
+    "initial_utterance": "Saya dah buat payment tapi payment belum masuk lagi.",
+    "protected_info": true,
+    "expected_root_cause": "payment not reflected",
+    "expected_resolution_keywords": [
+      "processing",
+      "processing period"
+    ],
+    "expected_escalation": true,
+    "kyc_answers": {
+      "mobile": "0123456789",
+      "name": "Aiman Rahman",
+      "id_last4": "8877",
+      "security_answer": "Blue"
+    },
+    "kyc_should_pass": true
+  },
+  {
+    "id": "SC002",
+    "name": "Outstanding enquiry",
+    "initial_utterance": "I want to check my outstanding balance.",
+    "protected_info": true,
+    "expected_root_cause": "outstanding balance",
+    "expected_resolution_keywords": [
+      "outstanding balance enquiry"
+    ],
+    "expected_escalation": false,
+    "kyc_answers": {
+      "mobile": "0123456789",
+      "name": "Aiman Rahman",
+      "id_last4": "8877",
+      "security_answer": "Blue"
+    },
+    "kyc_should_pass": true
+  },
+  {
+    "id": "SC003",
+    "name": "Failed KYC",
+    "initial_utterance": "I need my account information.",
+    "protected_info": true,
+    "expected_root_cause": "account information",
+    "expected_resolution_keywords": [
+      "cannot disclose",
+      "contact support"
+    ],
+    "expected_escalation": true,
+    "kyc_answers": {
+      "mobile": "0123456789",
+      "name": "Aiman Rahman",
+      "id_last4": "WRONG",
+      "security_answer": "Blue"
+    },
+    "kyc_should_pass": false
+  },
+  {
+    "id": "SC004",
+    "name": "Cancellation request",
+    "initial_utterance": "Saya nak buat pembatalan ID.",
+    "protected_info": true,
+    "expected_root_cause": "cancellation request",
+    "expected_resolution_keywords": [
+      "cancellation process"
+    ],
+    "expected_escalation": false,
+    "kyc_answers": {
+      "mobile": "0123456789",
+      "name": "Aiman Rahman",
+      "id_last4": "8877",
+      "security_answer": "Blue"
+    },
+    "kyc_should_pass": true
+  }
+]
